@@ -1,23 +1,34 @@
 var usedGroups = []; //global
 
-function generateCards(boardType){
+function generateCards(boardType, hard = false){
     usedGroups = [];
 
-    var easy = objectiveData.filter(e => e.difficulty == 1);
-    var med = objectiveData.filter(e => e.difficulty == 2);
-    var hard = objectiveData.filter(e => e.difficulty == 3);
-    var vhard = objectiveData.filter(e => e.difficulty == 4);
+    var objectiveDataByDifficulty = Array(9)
+        .fill()
+	.map((element, index) => objectiveData.filter(e => e.difficulty == index + 1) );
 
-    var houseDifficulty = [
-        "hard", "vhard", "fixed", "vhard", "hard",  //rank 9
-        "hard", "hard", "vhard", "hard", "hard",    //rank 8
-        "hard", "hard", "hard", "hard", "hard",     //rank 7
-        "med", "hard", "hard", "hard", "med",       //rank 6
-        "med", "med", "hard", "med", "med",         //rank 5
-        "med", "med", "med", "med", "med",          //rank 4
-        "easy", "med", "med", "med", "easy",        //rank 3
-        "easy", "easy", "med", "easy", "easy",      //rank 2
-        "fixed", "easy", "fixed", "easy", "fixed"   //rank 1
+    var houseDifficulty = hard
+    ? [ 
+        5, 9, 0, 9, 5, //rank 9
+        7, 8, 9, 8, 7, //rank 8
+        6, 7, 8, 7, 6, //rank 7
+        5, 6, 7, 6, 5, //rank 6
+        4, 5, 6, 5, 4, //rank 5
+        3, 4, 5, 4, 3, //rank 4
+        2, 3, 4, 3, 2, //rank 3
+        1, 2, 3, 2, 1, //rank 2
+        0, 1, 0, 1, 0  //rank 1
+    ]
+    : [
+        3, 4, 0, 4, 3, //rank 9
+        3, 3, 4, 3, 3, //rank 8
+        3, 3, 3, 3, 3, //rank 7
+        2, 3, 3, 3, 2, //rank 6
+        2, 2, 3, 2, 2, //rank 5
+        2, 2, 2, 2, 2, //rank 4
+        1, 2, 2, 2, 1, //rank 3
+        1, 1, 2, 1, 1, //rank 2
+        0, 1, 0, 1, 0  //rank 1
     ];
 
     var newBoard = [];
@@ -39,23 +50,8 @@ function generateCards(boardType){
     for (let j = 0; j < 45; j++) {
         const currentSquare = randomOrder[j];
         currentDifficulty = houseDifficulty[currentSquare];
-
-        switch (currentDifficulty) {
-            case "easy":
-                newBoard[currentSquare] = drawCard(easy);
-                break;
-            case "med":
-                newBoard[currentSquare] = drawCard(med);
-                break;
-            case "hard":
-                newBoard[currentSquare] = drawCard(hard);
-                break;
-            case "vhard":
-                newBoard[currentSquare] = drawCard(vhard);
-                break;
-            default:
-                break;
-        }
+	if (currentDifficulty > 0)
+	    newBoard[currentSquare] = drawCard(objectiveDataByDifficulty[currentDifficulty - 1])
     }
 
     if(boardType == "bingosync"){
