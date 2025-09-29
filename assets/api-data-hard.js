@@ -124,7 +124,7 @@ var objectiveData = [
 {"name": "Draft 7 Bedrooms in a Day", "difficulty": "3", "group": "colors"},
 {"name": "Draft 6 Green Rooms in a Day", "difficulty": "3", "group": "colors"},
 {"name": "Draft 6 Hallways in a Day", "difficulty": "3", "group": "colors"},
-{"name": "\\\"Crimson\\\" in Estate name (9+ Red Rooms)", "difficulty": "6", "group": "colors"},
+{"name": "&quot;Crimson&quot; in Estate name (9+ Red Rooms)", "difficulty": "6", "group": "colors"},
 {"name": "Draft 5 Shops in a Day", "difficulty": "6", "group": "colors"},
 {"name": "Draft 10 Green Rooms in a Day", "difficulty": "7", "group": "colors"},
 {"name": "Draft 10 Hallways in a Day", "difficulty": "7", "group": "colors"},
@@ -259,10 +259,10 @@ var objectiveData = [
 {"name": "Access 4 Unique Terminals", "difficulty": "4", "group": "terminals"},
 {"name": "Access 3 Unique Terminals in a Day", "difficulty": "4", "group": "terminals"},
 
-{"name": "\\\"Architect's\\\" in Estate name", "difficulty": "3", "group": "titles"},
-{"name": "\\\"Bed & Breakfast\\\" in Estate name", "difficulty": "4", "group": "titles"},
-{"name": "\\\"of Tomorrow\\\" / \\\"Temporal\\\" in Estate name", "difficulty": "5", "group": "titles"},
-{"name": "\\\"of Fire & Ice\\\" in Estate name", "difficulty": "6", "group": "titles"},
+{"name": "&quot;Architect's&quot; in Estate name", "difficulty": "3", "group": "titles"},
+{"name": "&quot;Bed & Breakfast&quot; in Estate name", "difficulty": "4", "group": "titles"},
+{"name": "&quot;of Tomorrow&quot; / &quot;Temporal&quot; in Estate name", "difficulty": "5", "group": "titles"},
+{"name": "&quot;of Fire & Ice&quot; in Estate name", "difficulty": "6", "group": "titles"},
 
 {"name": "Use 3 Upgrade Disks", "difficulty": "3", "group": "upgradedisk"},
 {"name": "Use 4 Upgrade Disks", "difficulty": "4", "group": "upgradedisk"},
