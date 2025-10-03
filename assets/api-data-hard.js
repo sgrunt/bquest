@@ -6,7 +6,6 @@ var objectiveData = [
 {"name": "End with a Live Animal", "difficulty": "1"},
 {"name": "End in Planetarium", "difficulty": "1"},
 {"name": "Read Newspaper Clipping", "difficulty": "1"},
-{"name": "Have 2 Major Keys", "difficulty": "1"},
 {"name": "Trade a Microchip", "difficulty": "1"},
 {"name": "Re-roll a Draft 4+ Times", "difficulty": "1"},
 {"name": "Open a Delivered Package", "difficulty": "1"},
@@ -32,7 +31,6 @@ var objectiveData = [
 {"name": "Gain >20 Steps in Dining Room", "difficulty": "3"},
 {"name": "Open the Car Trunk", "difficulty": "3"},
 {"name": "Light 4 Blue Flames", "difficulty": "3"},
-{"name": "Have 3 Major Keys", "difficulty": "3"},
 {"name": "Draft a straight horizontal line from West to East Wing", "difficulty": "3"},
 
 {"name": "Collect Items Spread to Conference Room", "difficulty": "4"},
@@ -49,7 +47,6 @@ var objectiveData = [
 {"name": "Collect a Flower Gem", "difficulty": "5"},
 {"name": "Draft Locker, Sauna, Pump Rooms in a Day", "difficulty": "5"},
 {"name": "End your day by triggering an Experiment", "difficulty": "5"},
-{"name": "Have 4 Major Keys", "difficulty": "5"},
 {"name": "Draft 2 Queens in a Day", "difficulty": "5"},
 {"name": "Read the Monk's Riddle", "difficulty": "5"},
 
@@ -57,7 +54,6 @@ var objectiveData = [
 {"name": "Draft a straight line from Entrance Hall to Antechamber", "difficulty": "6"},
 
 {"name": "Remove a room from the Drafting Pool", "difficulty": "7"},
-{"name": "Have 5 Major Keys", "difficulty": "7"},
 {"name": "Raise all mirrors in Chamber of Mirrors", "difficulty": "7"},
 {"name": "Refill a Watering Can", "difficulty": "7"},
 {"name": "Obtain the Paper Crown", "difficulty": "7"},
@@ -199,6 +195,11 @@ var objectiveData = [
 
 {"name": "Open 3 Lockers in a Day", "difficulty": "2", "group": "lockers"},
 {"name": "Open 5 Lockers in a Day", "difficulty": "3", "group": "lockers"},
+
+{"name": "Have 2 Major Keys", "difficulty": "1", "group": "majorkeys"},
+{"name": "Have 3 Major Keys", "difficulty": "3", "group": "majorkeys"},
+{"name": "Have 4 Major Keys", "difficulty": "5", "group": "majorkeys"},
+{"name": "Have 5 Major Keys", "difficulty": "7", "group": "majorkeys"},
 
 {"name": "Add Mechanarium", "difficulty": "5", "group": "mechanarium"},
 {"name": "Draft a 4-door Mechanarium", "difficulty": "7", "group": "mechanarium"},
