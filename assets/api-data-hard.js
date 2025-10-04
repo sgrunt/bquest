@@ -42,27 +42,27 @@ var objectiveData = [
 {"name": "Get a Prism Key", "difficulty": "4"},
 
 {"name": "Draft 3 Rooms that cost 3+ Gems in a Day", "difficulty": "5"},
-{"name": "Dig up Lost Coffers of Mt. Holly", "difficulty": "5"},
+{"name": "Dig Up Lost Coffers of Mt. Holly", "difficulty": "5"},
 {"name": "Open All Doors in Great Hall", "difficulty": "5"},
 {"name": "Collect a Flower Gem", "difficulty": "5"},
 {"name": "Draft Locker, Sauna, Pump Rooms in a Day", "difficulty": "5"},
-{"name": "End your day by triggering an Experiment", "difficulty": "5"},
+{"name": "End Your Day by Triggering an Experiment", "difficulty": "5"},
 {"name": "Draft 2 Queens in a Day", "difficulty": "5"},
 {"name": "Read the Monk's Riddle", "difficulty": "5"},
 
 {"name": "Purchase 1 Showroom Item", "difficulty": "6"},
-{"name": "Draft a straight line from Entrance Hall to Antechamber", "difficulty": "6"},
+{"name": "Draft a Straight Line from Entrance Hall to Antechamber", "difficulty": "6"},
 
-{"name": "Remove a room from the Drafting Pool", "difficulty": "7"},
-{"name": "Raise all mirrors in Chamber of Mirrors", "difficulty": "7"},
+{"name": "Remove a Room from the Drafting Pool", "difficulty": "7"},
+{"name": "Raise All Mirrors in Chamber of Mirrors", "difficulty": "7"},
 {"name": "Refill a Watering Can", "difficulty": "7"},
 {"name": "Obtain the Paper Crown", "difficulty": "7"},
 
 {"name": "Get Any Trophy", "difficulty": "8"},
 {"name": "Open a Vault", "difficulty": "8"},
-{"name": "Draft all 4 Bishops, Knights, or Rooks in a Day", "difficulty": "8"},
+{"name": "Draft All 4 Bishops, Knights, or Rooks in a Day", "difficulty": "8"},
 
-{"name": "Trade away a Tier 5 item in the Trading Post", "difficulty": "9"},
+{"name": "Trade Away a Tier 5 Item in the Trading Post", "difficulty": "9"},
 
 //grouped squares (only one of each group can appear)
 {"name": "4+ Allowance", "difficulty": "2", "group": "allowance"},
@@ -87,10 +87,10 @@ var objectiveData = [
 {"name": "End with 30+ Rooms", "difficulty": "1", "group": "bigmansion"},
 {"name": "Reach Rank 9", "difficulty": "1", "group": "bigmansion"},
 {"name": "End with 35+ Rooms", "difficulty": "2", "group": "bigmansion"},
-{"name": "Draft the entire East Wing", "difficulty": "4", "group": "bigmansion"},
-{"name": "Draft the entire West Wing", "difficulty": "4", "group": "bigmansion"},
+{"name": "Draft the Entire East Wing", "difficulty": "4", "group": "bigmansion"},
+{"name": "Draft the Entire West Wing", "difficulty": "4", "group": "bigmansion"},
 {"name": "End with 40+ Rooms", "difficulty": "5", "group": "bigmansion"},
-{"name": "Draft a Room in each Corner", "difficulty": "6", "group": "bigmansion"},
+{"name": "Draft a Room in Each Corner", "difficulty": "6", "group": "bigmansion"},
 
 {"name": "Solve 2 Dartboards", "difficulty": "1", "group": "billiards"},
 {"name": "Solve 3 Dartboards", "difficulty": "2", "group": "billiards"},
@@ -120,7 +120,7 @@ var objectiveData = [
 {"name": "Draft 7 Bedrooms in a Day", "difficulty": "3", "group": "colors"},
 {"name": "Draft 6 Green Rooms in a Day", "difficulty": "3", "group": "colors"},
 {"name": "Draft 6 Hallways in a Day", "difficulty": "3", "group": "colors"},
-{"name": "&quot;Crimson&quot; in Estate name (9+ Red Rooms)", "difficulty": "6", "group": "colors"},
+{"name": "&quot;Crimson&quot; in Estate Name (9+ Red Rooms)", "difficulty": "6", "group": "colors"},
 {"name": "Draft 5 Shops in a Day", "difficulty": "6", "group": "colors"},
 {"name": "Draft 10 Green Rooms in a Day", "difficulty": "7", "group": "colors"},
 {"name": "Draft 10 Hallways in a Day", "difficulty": "7", "group": "colors"},
@@ -146,7 +146,7 @@ var objectiveData = [
 {"name": "Dig 10x in a Day", "difficulty": "2", "group": "dig"},
 {"name": "Dig 15x in a Day", "difficulty": "3", "group": "dig"},
 {"name": "Dig 20x in a Day", "difficulty": "4", "group": "dig"},
-{"name": "Dig up a Major Key", "difficulty": "6", "group": "dig"},
+{"name": "Dig Up a Major Key", "difficulty": "6", "group": "dig"},
 
 {"name": "Eat in Dining Room 2 times", "difficulty": "1", "group": "dining"},
 {"name": "Eat in Dining Room 3 times", "difficulty": "3", "group": "dining"},
@@ -190,7 +190,7 @@ var objectiveData = [
 {"name": "Pull 2 Unique Levers", "difficulty": "3", "group": "levers"},
 {"name": "Pull 3 Unique Levers", "difficulty": "5", "group": "levers"},
 {"name": "Pull 2 Levers in a Day", "difficulty": "5", "group": "levers"},
-{"name": "Pull any Backup Lever", "difficulty": "6", "group": "levers"},
+{"name": "Pull Any Backup Lever", "difficulty": "6", "group": "levers"},
 {"name": "Pull 4 Unique Levers", "difficulty": "8", "group": "levers"},
 
 {"name": "Open 3 Lockers in a Day", "difficulty": "2", "group": "lockers"},
@@ -202,8 +202,8 @@ var objectiveData = [
 {"name": "Have 5 Major Keys", "difficulty": "7", "group": "majorkeys"},
 
 {"name": "Add Mechanarium", "difficulty": "5", "group": "mechanarium"},
-{"name": "Draft a 4-door Mechanarium", "difficulty": "7", "group": "mechanarium"},
-{"name": "Draft a 6-door Mechanarium", "difficulty": "8", "group": "mechanarium"},
+{"name": "Draft a 4-Door Mechanarium", "difficulty": "7", "group": "mechanarium"},
+{"name": "Draft a 6-Door Mechanarium", "difficulty": "8", "group": "mechanarium"},
 
 {"name": "Solve 2 Parlors", "difficulty": "1", "group": "parlor"},
 {"name": "Solve 3 Parlors", "difficulty": "2", "group": "parlor"},
@@ -213,7 +213,7 @@ var objectiveData = [
 {"name": "Cash a Payroll Check", "difficulty": "5", "group": "payroll"},
 {"name": "Draft Maid's Chambers + Servant's Quarters in a Day", "difficulty": "5", "group": "payroll"},
 
-{"name": "Power 3 consecutive Rooms", "difficulty": "4", "group": "power"},
+{"name": "Power 3 Consecutive Rooms", "difficulty": "4", "group": "power"},
 {"name": "Operate any Powered Device", "difficulty": "5", "group": "power"},
 {"name": "Unlock Blackbridge Grotto", "difficulty": "6", "group": "power"},
 
@@ -239,7 +239,7 @@ var objectiveData = [
 
 {"name": "Shelter the Lavatory", "difficulty": "2", "group": "shelter"},
 {"name": "Shelter an Upgraded Room or a Found Floorplan", "difficulty": "6", "group": "shelter"},
-{"name": "Trigger the emergency protocol from the Shelter", "difficulty": "7", "group": "shelter"},
+{"name": "Trigger the Emergency Protocol from the Shelter", "difficulty": "7", "group": "shelter"},
 
 {"name": "View 1 Stamp in the Library", "difficulty": "3", "group": "stamp"},
 {"name": "View 2 Stamps in the Library", "difficulty": "5", "group": "stamp"},
@@ -260,10 +260,10 @@ var objectiveData = [
 {"name": "Access 4 Unique Terminals", "difficulty": "4", "group": "terminals"},
 {"name": "Access 3 Unique Terminals in a Day", "difficulty": "4", "group": "terminals"},
 
-{"name": "&quot;Architect's&quot; in Estate name", "difficulty": "3", "group": "titles"},
-{"name": "&quot;Bed & Breakfast&quot; in Estate name", "difficulty": "4", "group": "titles"},
-{"name": "&quot;of Tomorrow&quot; / &quot;Temporal&quot; in Estate name", "difficulty": "5", "group": "titles"},
-{"name": "&quot;of Fire & Ice&quot; in Estate name", "difficulty": "6", "group": "titles"},
+{"name": "&quot;Architect's&quot; in Estate Name", "difficulty": "3", "group": "titles"},
+{"name": "&quot;Bed & Breakfast&quot; in Estate Name", "difficulty": "4", "group": "titles"},
+{"name": "&quot;of Tomorrow&quot; / &quot;Temporal&quot; in Estate Name", "difficulty": "5", "group": "titles"},
+{"name": "&quot;of Fire & Ice&quot; in Estate Name", "difficulty": "6", "group": "titles"},
 
 {"name": "Use 3 Upgrade Disks", "difficulty": "3", "group": "upgradedisk"},
 {"name": "Use 4 Upgrade Disks", "difficulty": "4", "group": "upgradedisk"},
