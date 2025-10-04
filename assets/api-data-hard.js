@@ -24,14 +24,14 @@ var objectiveData = [
 {"name": "Become Cursed", "difficulty": "2"},
 {"name": "Rotate a Room", "difficulty": "2"},
 
-{"name": "Lose 10+ Steps to a single effect", "difficulty": "3"},
+{"name": "Lose 10+ Steps to a Single Effect", "difficulty": "3"},
 {"name": "Retrieve Key After Checking Overnight", "difficulty": "3"},
 {"name": "Draft 8 Blue Rooms in a Row", "difficulty": "3"},
 {"name": "Buy a Special Key", "difficulty": "3"},
 {"name": "Gain >20 Steps in Dining Room", "difficulty": "3"},
 {"name": "Open the Car Trunk", "difficulty": "3"},
 {"name": "Light 4 Blue Flames", "difficulty": "3"},
-{"name": "Draft a straight horizontal line from West to East Wing", "difficulty": "3"},
+{"name": "Draft a Straight Horizontal Line from West to East Wing", "difficulty": "3"},
 
 {"name": "Collect Items Spread to Conference Room", "difficulty": "4"},
 {"name": "Retrieve a Coin from Draining Water", "difficulty": "4"},
@@ -99,7 +99,7 @@ var objectiveData = [
 {"name": "Buy Out Any Shop", "difficulty": "2", "group": "buyout"},
 {"name": "Buy Out Kitchen", "difficulty": "3", "group": "buyout"},
 {"name": "Buy Out Commissary", "difficulty": "3", "group": "buyout"},
-{"name": "Buy Out Showroom (excluding Trophy)", "difficulty": "9", "group": "buyout"},
+{"name": "Buy Out Showroom (Excluding Trophy)", "difficulty": "9", "group": "buyout"},
 
 {"name": "Gain Chess Power", "difficulty": "7", "group": "chess"},
 {"name": "Castle", "difficulty": "9", "group": "chess"},
@@ -214,7 +214,7 @@ var objectiveData = [
 {"name": "Draft Maid's Chambers + Servant's Quarters in a Day", "difficulty": "5", "group": "payroll"},
 
 {"name": "Power 3 Consecutive Rooms", "difficulty": "4", "group": "power"},
-{"name": "Operate any Powered Device", "difficulty": "5", "group": "power"},
+{"name": "Operate Any Powered Device", "difficulty": "5", "group": "power"},
 {"name": "Unlock Blackbridge Grotto", "difficulty": "6", "group": "power"},
 
 {"name": "5+ Keys, Gems, Coins Each", "difficulty": "2", "group": "resources"},
