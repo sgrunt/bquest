@@ -59,7 +59,7 @@ var objectiveData = [
 {"name": "Obtain the Paper Crown", "difficulty": "7"},
 
 {"name": "Get Any Trophy", "difficulty": "8"},
-{"name": "Open a Vault", "difficulty": "8"},
+{"name": "Open a Safety Deposit Box", "difficulty": "8"},
 {"name": "Draft All 4 Bishops, Knights, or Rooks in a Day", "difficulty": "8"},
 
 {"name": "Trade Away a Tier 5 Item in the Trading Post", "difficulty": "9"},
