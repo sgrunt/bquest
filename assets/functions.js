@@ -3,9 +3,11 @@ var usedGroups = []; //global
 function generateCards(boardType, hard = false){
     usedGroups = [];
 
+    var baseObjectiveData = hard ? objectiveDataHard : objectiveData;
+
     var objectiveDataByDifficulty = Array(9)
         .fill()
-	.map((element, index) => objectiveData.filter(e => e.difficulty == index + 1) );
+	.map((element, index) => baseObjectiveData.filter(e => e.difficulty == index + 1) );
 
     var houseDifficulty = hard
     ? [ 
