@@ -205,7 +205,6 @@ var objectiveDataHard = [
 {"name": "Gain >20 Steps in Dining Room", "difficulty": "3"},
 {"name": "Open the Car Trunk", "difficulty": "3"},
 {"name": "Light 4 Blue Flames", "difficulty": "3"},
-{"name": "Draft a Straight Horizontal Line from West to East Wing", "difficulty": "3"},
 
 {"name": "Collect Items Spread to Conference Room", "difficulty": "4"},
 {"name": "Retrieve a Coin from Draining Water", "difficulty": "4"},
@@ -225,7 +224,6 @@ var objectiveDataHard = [
 {"name": "Read the Monk's Riddle", "difficulty": "5"},
 
 {"name": "Purchase 1 Showroom Item", "difficulty": "6"},
-{"name": "Draft a Straight Line from Entrance Hall to Antechamber", "difficulty": "6"},
 
 {"name": "Remove a Room from the Drafting Pool", "difficulty": "7"},
 {"name": "Raise All Mirrors in Chamber of Mirrors", "difficulty": "7"},
@@ -234,9 +232,9 @@ var objectiveDataHard = [
 
 {"name": "Get Any Trophy", "difficulty": "8"},
 {"name": "Open a Safety Deposit Box", "difficulty": "8"},
-{"name": "Draft All 4 Bishops, Knights, or Rooks in a Day", "difficulty": "8"},
+{"name": "Trade Away a Tier 5 Item in the Trading Post", "difficulty": "8"},
 
-{"name": "Trade Away a Tier 5 Item in the Trading Post", "difficulty": "9"},
+{"name": "Draft All 4 Bishops, Knights, or Rooks in a Day", "difficulty": "9"},
 
 //grouped squares (only one of each group can appear)
 {"name": "4+ Allowance", "difficulty": "2", "group": "allowance"},
@@ -249,8 +247,8 @@ var objectiveDataHard = [
 {"name": "12+ Allowance", "difficulty": "9", "group": "allowance"},
 
 {"name": "Enter Antechamber", "difficulty": "6", "group": "antechamber"},
-{"name": "Unlock a Basement Door", "difficulty": "8", "group": "antechamber"},
-{"name": "Unlock 2 Basement Doors", "difficulty": "9", "group": "antechamber"},
+{"name": "Unlock a Basement Door", "difficulty": "7", "group": "antechamber"},
+{"name": "Unlock 2 Basement Doors", "difficulty": "8", "group": "antechamber"},
 
 {"name": "Draft 3 Archived Floorplans in a Day", "difficulty": "2", "group": "archived"},
 {"name": "Draft 4 Archived Floorplans in a Day", "difficulty": "3", "group": "archived"},
