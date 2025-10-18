@@ -219,11 +219,8 @@ var objectiveDataHard = [
 {"name": "Open All Doors in Great Hall", "difficulty": "5"},
 {"name": "Collect a Flower Gem", "difficulty": "5"},
 {"name": "Draft Locker, Sauna, Pump Rooms in a Day", "difficulty": "5"},
-{"name": "End Your Day by Triggering an Experiment", "difficulty": "5"},
 {"name": "Draft 2 Queens in a Day", "difficulty": "5"},
 {"name": "Read the Monk's Riddle", "difficulty": "5"},
-
-{"name": "Purchase 1 Showroom Item", "difficulty": "6"},
 
 {"name": "Remove a Room from the Drafting Pool", "difficulty": "7"},
 {"name": "Raise All Mirrors in Chamber of Mirrors", "difficulty": "7"},
@@ -271,6 +268,7 @@ var objectiveDataHard = [
 {"name": "Buy Out Any Shop", "difficulty": "2", "group": "buyout"},
 {"name": "Buy Out Kitchen", "difficulty": "3", "group": "buyout"},
 {"name": "Buy Out Commissary", "difficulty": "3", "group": "buyout"},
+{"name": "Purchase 1 Showroom Item", "difficulty": "6", "group": "buyout"},
 {"name": "Buy Out Showroom (Excluding Trophy)", "difficulty": "9", "group": "buyout"},
 
 {"name": "Gain Chess Power", "difficulty": "7", "group": "chess"},
@@ -357,6 +355,7 @@ var objectiveDataHard = [
 
 {"name": "Trigger Experiment 2x", "difficulty": "2", "group": "laboratory"},
 {"name": "Trigger Experiment 4x", "difficulty": "4", "group": "laboratory"},
+{"name": "End Your Day by Triggering an Experiment", "difficulty": "5", "group": "laboratory"},
 
 {"name": "Pull Antechamber Lever", "difficulty": "1", "group": "levers"},
 {"name": "Pull 2 Unique Levers", "difficulty": "3", "group": "levers"},
