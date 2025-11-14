@@ -324,10 +324,11 @@ var objectiveDataHard = [
 
 {"name": "Add 2 New Floorplans", "difficulty": "1", "group": "floorplan"},
 {"name": "Add 3 New Floorplans", "difficulty": "4", "group": "floorplan"},
-{"name": "Add 4 New Floorplans", "difficulty": "6", "group": "floorplan"},
-{"name": "Add 5 New Floorplans", "difficulty": "7", "group": "floorplan"},
-{"name": "Add 6 New Floorplans", "difficulty": "8", "group": "floorplan"},
-{"name": "Add 7 New Floorplans", "difficulty": "9", "group": "floorplan"},
+{"name": "Add 4 New Floorplans", "difficulty": "5", "group": "floorplan"},
+{"name": "Add 5 New Floorplans", "difficulty": "6", "group": "floorplan"},
+{"name": "Add 6 New Floorplans", "difficulty": "7", "group": "floorplan"},
+{"name": "Add 7 New Floorplans", "difficulty": "8", "group": "floorplan"},
+{"name": "Add 8 New Floorplans", "difficulty": "9", "group": "floorplan"},
 
 {"name": "1 Full Directory Category", "difficulty": "1", "group": "fulldirectory"},
 {"name": "Full Directory of Red Rooms", "difficulty": "2", "group": "fulldirectory"},
@@ -425,7 +426,7 @@ var objectiveDataHard = [
 {"name": "Have 110+ Steps", "difficulty": "7", "group": "steps"},
 
 {"name": "Use a Telescope", "difficulty": "5", "group": "telescope"},
-{"name": "Upgrade the Planetarium", "difficulty": "6", "group": "telescope"},
+{"name": "Upgrade the Planetarium", "difficulty": "7", "group": "telescope"},
 
 {"name": "Access 3 Unique Terminals", "difficulty": "3", "group": "terminals"},
 {"name": "Access 4 Unique Terminals", "difficulty": "4", "group": "terminals"},
