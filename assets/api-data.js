@@ -221,9 +221,9 @@ var objectiveDataHard = [
 {"name": "Draft Locker, Sauna, Pump Rooms in a Day", "difficulty": "5"},
 {"name": "Draft 2 Queens in a Day", "difficulty": "5"},
 {"name": "Read the Monk's Riddle", "difficulty": "5"},
+{"name": "Enter Secret Passage Behind Unopened Bookcase", "difficulty": "5"},
 
 {"name": "Remove a Room from the Drafting Pool", "difficulty": "7"},
-{"name": "Raise All Mirrors in Chamber of Mirrors", "difficulty": "7"},
 {"name": "Refill a Watering Can", "difficulty": "7"},
 {"name": "Obtain the Paper Crown", "difficulty": "7"},
 
@@ -244,6 +244,7 @@ var objectiveDataHard = [
 {"name": "12+ Allowance", "difficulty": "9", "group": "allowance"},
 
 {"name": "Enter Antechamber", "difficulty": "6", "group": "antechamber"},
+{"name": "Draft from Antechamber", "difficulty": "7", "group": "antechamber"},
 {"name": "Unlock a Basement Door", "difficulty": "7", "group": "antechamber"},
 {"name": "Unlock 2 Basement Doors", "difficulty": "8", "group": "antechamber"},
 
@@ -377,6 +378,9 @@ var objectiveDataHard = [
 {"name": "Draft a 4-Door Mechanarium", "difficulty": "7", "group": "mechanarium"},
 {"name": "Draft a 6-Door Mechanarium", "difficulty": "8", "group": "mechanarium"},
 
+{"name": "Draft from Chamber of Mirrors", "difficulty": "6", "group": "mirrors"},
+{"name": "Raise All Mirrors in Chamber of Mirrors", "difficulty": "7", "group": "mirrors"},
+
 {"name": "Solve 2 Parlors", "difficulty": "1", "group": "parlor"},
 {"name": "Solve 3 Parlors", "difficulty": "2", "group": "parlor"},
 {"name": "Solve 4 Parlors", "difficulty": "3", "group": "parlor"},
@@ -408,6 +412,7 @@ var objectiveDataHard = [
 
 {"name": "Open 2 Security Doors in a Day", "difficulty": "1", "group": "security"},
 {"name": "Open 4 Security Doors in a Day", "difficulty": "3", "group": "security"},
+{"name": "Open Powered Security Door Without Using Keycard", "difficulty": "4", "group": "security"},
 
 {"name": "Shelter the Lavatory", "difficulty": "2", "group": "shelter"},
 {"name": "Shelter an Upgraded Room or a Found Floorplan", "difficulty": "6", "group": "shelter"},
