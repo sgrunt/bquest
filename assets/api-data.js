@@ -223,6 +223,8 @@ var objectiveDataHard = [
 {"name": "Read the Monk's Riddle", "difficulty": "5"},
 {"name": "Enter Secret Passage Behind Unopened Bookcase", "difficulty": "5"},
 
+{"name": "Open a Symbol Chest", "difficulty": "6"},
+
 {"name": "Remove a Room from the Drafting Pool", "difficulty": "7"},
 {"name": "Refill a Watering Can", "difficulty": "7"},
 {"name": "Obtain the Paper Crown", "difficulty": "7"},
