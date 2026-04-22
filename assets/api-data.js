@@ -205,16 +205,15 @@ var objectiveDataHard = [
 {"name": "Gain >20 Steps in Dining Room", "difficulty": "3"},
 {"name": "Open the Car Trunk", "difficulty": "3"},
 {"name": "Light 4 Blue Flames", "difficulty": "3"},
+{"name": "Eat 5 Fruit in a Day", "difficulty": "3"},
 
 {"name": "Collect Items Spread to Conference Room", "difficulty": "4"},
 {"name": "Retrieve a Coin from Draining Water", "difficulty": "4"},
 {"name": "Draft the Cloister for Free", "difficulty": "4"},
 {"name": "Pick 3 Berries", "difficulty": "4"},
 {"name": "Open a Filing Cabinet", "difficulty": "4"},
-{"name": "Eat 5 Fruit in a Day", "difficulty": "4"},
 {"name": "Get a Prism Key", "difficulty": "4"},
 
-{"name": "Draft 3 Rooms that cost 3+ Gems in a Day", "difficulty": "5"},
 {"name": "Dig Up Lost Coffers of Mt. Holly", "difficulty": "5"},
 {"name": "Open All Doors in Great Hall", "difficulty": "5"},
 {"name": "Collect a Flower Gem", "difficulty": "5"},
@@ -326,12 +325,12 @@ var objectiveDataHard = [
 {"name": "Eat in Dining Room 5 times", "difficulty": "5", "group": "dining"},
 
 {"name": "Add 2 New Floorplans", "difficulty": "1", "group": "floorplan"},
-{"name": "Add 3 New Floorplans", "difficulty": "4", "group": "floorplan"},
-{"name": "Add 4 New Floorplans", "difficulty": "5", "group": "floorplan"},
-{"name": "Add 5 New Floorplans", "difficulty": "6", "group": "floorplan"},
-{"name": "Add 6 New Floorplans", "difficulty": "7", "group": "floorplan"},
-{"name": "Add 7 New Floorplans", "difficulty": "8", "group": "floorplan"},
-{"name": "Add 8 New Floorplans", "difficulty": "9", "group": "floorplan"},
+{"name": "Add 3 New Floorplans", "difficulty": "3", "group": "floorplan"},
+{"name": "Add 4 New Floorplans", "difficulty": "4", "group": "floorplan"},
+{"name": "Add 5 New Floorplans", "difficulty": "5", "group": "floorplan"},
+{"name": "Add 6 New Floorplans", "difficulty": "6", "group": "floorplan"},
+{"name": "Add 7 New Floorplans", "difficulty": "7", "group": "floorplan"},
+{"name": "Add 8 New Floorplans", "difficulty": "8", "group": "floorplan"},
 
 {"name": "1 Full Directory Category", "difficulty": "1", "group": "fulldirectory"},
 {"name": "Full Directory of Red Rooms", "difficulty": "2", "group": "fulldirectory"},
@@ -340,10 +339,11 @@ var objectiveDataHard = [
 {"name": "Full Directory of Green Rooms OR Bedrooms", "difficulty": "5", "group": "fulldirectory"},
 {"name": "3 Full Directory Categories", "difficulty": "7", "group": "fulldirectory"},
 {"name": "Full Page of Blue Rooms in Directory", "difficulty": "7", "group": "fulldirectory"},
-{"name": "Full Directory of Blue Rooms", "difficulty": "9", "group": "fulldirectory"},
+{"name": "2 Full Pages of Blue Rooms in Directory", "difficulty": "9", "group": "fulldirectory"},
 
 {"name": "Spend 3 Gems Drafting a Room", "difficulty": "2", "group": "gemcost"},
-{"name": "Draft a 5 Gem Cost Room", "difficulty": "6", "group": "gemcost"},
+{"name": "Spend 3+ Gems Drafting a Room 3x in a Day", "difficulty": "5", "group": "gemcost"},
+{"name": "Spend 5 Gems Drafting a Room", "difficulty": "6", "group": "gemcost"},
 
 {"name": "10+ Gems", "difficulty": "3", "group": "gems"},
 {"name": "15+ Gems", "difficulty": "4", "group": "gems"},
@@ -366,7 +366,7 @@ var objectiveDataHard = [
 {"name": "Pull 3 Unique Levers", "difficulty": "5", "group": "levers"},
 {"name": "Pull 2 Levers in a Day", "difficulty": "5", "group": "levers"},
 {"name": "Pull Any Backup Lever", "difficulty": "6", "group": "levers"},
-{"name": "Pull 4 Unique Levers", "difficulty": "8", "group": "levers"},
+{"name": "Pull 4 Unique Levers", "difficulty": "7", "group": "levers"},
 
 {"name": "Open 3 Lockers in a Day", "difficulty": "2", "group": "lockers"},
 {"name": "Open 5 Lockers in a Day", "difficulty": "3", "group": "lockers"},
@@ -381,7 +381,7 @@ var objectiveDataHard = [
 {"name": "Draft a 6-Door Mechanarium", "difficulty": "8", "group": "mechanarium"},
 
 {"name": "Draft from Chamber of Mirrors", "difficulty": "6", "group": "mirrors"},
-{"name": "Raise All Mirrors in Chamber of Mirrors", "difficulty": "7", "group": "mirrors"},
+{"name": "Raise All Mirrors in Chamber of Mirrors", "difficulty": "8", "group": "mirrors"},
 
 {"name": "Solve 2 Parlors", "difficulty": "1", "group": "parlor"},
 {"name": "Solve 3 Parlors", "difficulty": "2", "group": "parlor"},
