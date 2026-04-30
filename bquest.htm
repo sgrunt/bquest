@@ -91,6 +91,10 @@
                 <input type="button" class="btn btn-success mb-3 shadow" value="Show Board" onclick="buildBoard()">
                 <input type="button" class="btn btn-warning mb-3 shadow" value="Download" onclick="downloadJson()">
             </div>
+            <div class="text-center">
+	        <input type="checkbox" id="hardmode"/>
+                <label for="hard">Hard Mode</label>
+            </div>
             <div class="row">
                 <div class="col-lg-6 mx-auto mb-3">
                     <textarea class="form-control shadow" style="height: 200px" id="boardFull"></textarea>
@@ -125,6 +129,10 @@
     <script src="assets/functions.js"></script>
     <script>
         $(function(){
+	    var params = new URL(window.location).searchParams;
+	    if (params && params.get("hardmode") != undefined) {
+	        $("#hardmode").prop("checked", true);
+            }
             $("#board td").on("mousedown", function(e){
                 document.oncontextmenu = function() { return false; }
                 
@@ -153,7 +161,7 @@
         });
         
         function generateJson(){
-            var output = generateCards("bquest");
+            var output = generateCards("bquest", $("#hardmode").is(":checked"));
             $("#boardFull").val(output);
         }
         
