@@ -11,7 +11,7 @@ var objectiveData = [
 {"name": "Read Newspaper Clipping", "difficulty": 1},
 {"name": "Draft 2 Knights in a Day", "difficulty": 1},
 {"name": "Spin a Globe", "difficulty": 1},
-{"name": "Draft 2 Terminals", "difficulty": 1},
+{"name": "Draft 2 Terminals in a Day", "difficulty": 1},
 {"name": "Gain Steps from Boudoir", "difficulty": 1},
 
 // ungrouped medium
@@ -24,10 +24,10 @@ var objectiveData = [
 {"name": "Reach Rank 9", "difficulty": 2},
 {"name": "Shelter the Lavatory", "difficulty": 2},
 {"name": "Eat in Pantry, Kitchen, and Dining in a Day", "difficulty": 2},
-{"name": "Draft 8 Blue Rooms in a Row", "difficulty": 2},
+{"name": "Draft 8 Blue Rooms in a Row in a Day", "difficulty": 2},
 {"name": "Draft 2 Bishops in a Day", "difficulty": 2},
 {"name": "Draft 2+ Copies of Room in a Day", "difficulty": 2},
-{"name": "Draft West and East Wing Halls", "difficulty": 2},
+{"name": "Draft West and East Wing Halls on Same Day", "difficulty": 2},
 {"name": "Change a Room's Color", "difficulty": 2},
 {"name": "Open Tomb Door to Reservoir", "difficulty": 2},
 {"name": "Read a Library Book Aloud", "difficulty": 2},
@@ -39,7 +39,7 @@ var objectiveData = [
 // ungrouped hard
 {"name": "Add Mechanarium", "difficulty": 3},
 {"name": "Collect Items Spread to Conference Room", "difficulty": 3},
-{"name": "End a Day with 90+ Steps Left", "difficulty": 3},
+{"name": "Have 90+ Steps", "difficulty": 3},
 {"name": "Open All Doors in Great Hall", "difficulty": 3},
 {"name": "Retrieve a Coin from Draining Water", "difficulty": 3},
 {"name": "Draft the Cloister for Free", "difficulty": 3},
@@ -47,7 +47,7 @@ var objectiveData = [
 {"name": "Cash a Payroll Check", "difficulty": 3},
 {"name": "Draft All Four Corners", "difficulty": 3},
 {"name": "Operate Any Powered Device", "difficulty": 3},
-{"name": "Obtain Gear Wrench, Watering Can and Battery Pack", "difficulty": 3},
+{"name": "Obtain Gear Wrench, Watering Can, or Telescope", "difficulty": 3},
 
 // ungrouped very hard
 {"name": "Enter Antechamber", "difficulty": 4},
@@ -107,8 +107,8 @@ var objectiveData = [
 {"name": "Solve 3 Dartboards", "difficulty": 2, "group": "billiard"},
 {"name": "Solve 4 Dartboards", "difficulty": 3, "group": "billiard"},
 
-{"name": "Trigger Experiment 2x", "difficulty": 2, "group": "experiment"},
-{"name": "Trigger Experiment 4x", "difficulty": 3, "group": "experiment"},
+{"name": "Trigger Experiment 2x in a Day", "difficulty": 2, "group": "experiment"},
+{"name": "Trigger Experiment 4x in a Day", "difficulty": 3, "group": "experiment"},
 
 {"name": "8+ Inventory Items", "difficulty": 2, "group": "inventory"},
 {"name": "10+ Inventory Items", "difficulty": 2, "group": "inventory"},
@@ -153,7 +153,6 @@ var objectiveData = [
 {"name": "Draft an Architect's House", "difficulty": 2, "group": "titles"},
 {"name": "Draft Shrine, Chapel and Cloister on Same Day", "difficulty": 3, "group": "titles"},
 {"name": "Draft Conference Room, Office and Mail Room on Same Day", "difficulty": 3, "group": "titles"},
-{"name": "Draft HLC, Walk-in Closet and Boudoir on Same Day", "difficulty": 3, "group": "titles"},
 
 {"name": "1 Full Directory Category", "difficulty": 2, "group": "full_dir"},
 {"name": "Full Directory of Red Rooms", "difficulty": 2, "group": "full_dir"},
