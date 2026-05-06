@@ -46,7 +46,7 @@ var objectiveData = [
 {"name": "Collect a Flower Gem", "difficulty": 3},
 {"name": "Cash a Payroll Check", "difficulty": 3},
 {"name": "Draft All Four Corners", "difficulty": 3},
-{"name": "Operate Any Powered Device", "difficulty": 3},
+{"name": "Operate a Powered Room's Device", "difficulty": 3},
 {"name": "Obtain Gear Wrench, Watering Can, or Telescope", "difficulty": 3},
 
 // ungrouped very hard
@@ -414,7 +414,7 @@ var objectiveDataHard = [
 {"name": "Draft Maid's Chambers + Servant's Quarters in a Day", "difficulty": "5", "group": "payroll"},
 
 {"name": "Power 3 Consecutive Rooms", "difficulty": "4", "group": "power"},
-{"name": "Operate Any Powered Device", "difficulty": "5", "group": "power"},
+{"name": "Operate a Powered Room's Device", "difficulty": "5", "group": "power"},
 {"name": "Unlock Blackbridge Grotto", "difficulty": "6", "group": "power"},
 
 {"name": "5+ Keys, Gems, Coins Each", "difficulty": "2", "group": "resources"},
