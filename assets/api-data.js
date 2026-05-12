@@ -10,7 +10,6 @@ var objectiveData = [
 {"name": "End in Planetarium", "difficulty": 1},
 {"name": "Read Newspaper Clipping", "difficulty": 1},
 {"name": "Draft 2 Knights in a Day", "difficulty": 1},
-{"name": "Spin a Globe", "difficulty": 1},
 {"name": "Draft 2 Terminals in a Day", "difficulty": 1},
 {"name": "Gain Steps from Boudoir", "difficulty": 1},
 
@@ -67,7 +66,7 @@ var objectiveData = [
 {"name": "Buy Out Any Shop", "difficulty": 2, "group": "buyout"},
 {"name": "Buy Out Kitchen", "difficulty": 2, "group": "buyout"},
 {"name": "Buy Out Commissary", "difficulty": 3, "group": "buyout"},
-{"name": "Buy a Showroom Item", "difficulty": 4, "group": "buyout"},
+{"name": "Buy a Showroom Item", "difficulty": 3, "group": "buyout"},
 
 {"name": "30+ Coins", "difficulty": 2, "group": "coins"},
 {"name": "40+ Coins", "difficulty": 3, "group": "coins"},
@@ -152,7 +151,6 @@ var objectiveData = [
 
 {"name": "Draft an Architect's House", "difficulty": 2, "group": "titles"},
 {"name": "Draft Shrine, Chapel and Cloister on Same Day", "difficulty": 3, "group": "titles"},
-{"name": "Draft Conference Room, Office and Mail Room on Same Day", "difficulty": 3, "group": "titles"},
 
 {"name": "1 Full Directory Category", "difficulty": 2, "group": "full_dir"},
 {"name": "Full Directory of Red Rooms", "difficulty": 2, "group": "full_dir"},
@@ -187,11 +185,11 @@ var objectiveData = [
 {"name": "Pull 2 Unique Levers", "difficulty": 3, "group": "levers"},
 {"name": "Pull 3 Unique Levers", "difficulty": 4, "group": "levers"},
 
-{"name": "Hold 2 Microchips", "difficulty": 1, "group": "microchip"},
+{"name": "Have 2 Microchips", "difficulty": 1, "group": "microchip"},
 {"name": "Trade a Microchip", "difficulty": 2, "group": "microchip"},
 
 {"name": "Make a Contraption", "difficulty": 3, "group": "contraption"},
-{"name": "Make 3 Unique Contraptions", "difficulty": 4, "group": "contraption"},
+{"name": "Make 2 Unique Contraptions", "difficulty": 4, "group": "contraption"},
 ];
 
 var objectiveDataHard = [
@@ -292,7 +290,7 @@ var objectiveDataHard = [
 {"name": "Buy Out Any Shop", "difficulty": "2", "group": "buyout"},
 {"name": "Buy Out Kitchen", "difficulty": "3", "group": "buyout"},
 {"name": "Buy Out Commissary", "difficulty": "3", "group": "buyout"},
-{"name": "Purchase 1 Showroom Item", "difficulty": "6", "group": "buyout"},
+{"name": "Buy a Showroom Item", "difficulty": "6", "group": "buyout"},
 {"name": "Buy Out Showroom (Excluding Trophy)", "difficulty": "9", "group": "buyout"},
 
 {"name": "Gain Chess Power", "difficulty": "7", "group": "chess"},
