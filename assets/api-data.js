@@ -32,7 +32,6 @@ var objectiveData = [
 {"name": "Read a Library Book Aloud", "difficulty": 2},
 {"name": "Buy a Special Key", "difficulty": 2},
 {"name": "Pick 3 Locks", "difficulty": 2},
-{"name": "Draft a Full Wing", "difficulty": 2},
 {"name": "Draft 3 Different Closets in a Day", "difficulty": 2},
 
 // ungrouped hard
@@ -44,7 +43,6 @@ var objectiveData = [
 {"name": "Draft the Cloister for Free", "difficulty": 3},
 {"name": "Collect a Flower Gem", "difficulty": 3},
 {"name": "Cash a Payroll Check", "difficulty": 3},
-{"name": "Draft All Four Corners", "difficulty": 3},
 {"name": "Operate a Powered Room's Device", "difficulty": 3},
 {"name": "Obtain Gear Wrench, Watering Can, or Telescope", "difficulty": 3},
 
@@ -58,7 +56,9 @@ var objectiveData = [
 {"name": "Gain 30+ Steps at Once", "difficulty": 3, "group": "steps"},
 
 {"name": "End with 30+ Rooms", "difficulty": 2, "group": "totalrooms"},
+{"name": "Draft a Full Wing", "difficulty": 2, "group": "totalrooms"},
 {"name": "End with 35+ Rooms", "difficulty": 3, "group": "totalrooms"},
+{"name": "Draft All Four Corners", "difficulty": 3, "group": "totalrooms"},
 
 {"name": "Eat in Dining Room 2 times", "difficulty": 2, "group": "dining"},
 {"name": "Eat in Dining Room 3 times", "difficulty": 3, "group": "dining"},
@@ -281,7 +281,7 @@ var objectiveDataHard = [
 {"name": "Draft the Entire East Wing", "difficulty": "4", "group": "bigmansion"},
 {"name": "Draft the Entire West Wing", "difficulty": "4", "group": "bigmansion"},
 {"name": "End with 40+ Rooms", "difficulty": "5", "group": "bigmansion"},
-{"name": "Draft a Room in Each Corner", "difficulty": "6", "group": "bigmansion"},
+{"name": "Draft All Four Corners", "difficulty": "6", "group": "bigmansion"},
 
 {"name": "Solve 2 Dartboards", "difficulty": "1", "group": "billiards"},
 {"name": "Solve 3 Dartboards", "difficulty": "2", "group": "billiards"},
