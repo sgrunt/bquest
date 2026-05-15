@@ -31,8 +31,8 @@ var objectiveData = [
 {"name": "Open Tomb Door to Reservoir", "difficulty": 2},
 {"name": "Read a Library Book Aloud", "difficulty": 2},
 {"name": "Buy a Special Key", "difficulty": 2},
-{"name": "Pick 3 Locks", "difficulty": 2},
-{"name": "Draft 3 Different Closets in a Day", "difficulty": 2},
+{"name": "Pick a Lock", "difficulty": 2},
+{"name": "Draft 3 \"Closet\" Rooms in a Day", "difficulty": 2},
 
 // ungrouped hard
 {"name": "Add Mechanarium", "difficulty": 3},
@@ -53,7 +53,7 @@ var objectiveData = [
 //grouped squares (only one of each group can appear)
 {"name": "End with 100+ Steps Taken", "difficulty": 1, "group": "steps"},
 {"name": "End with 120+ Steps Taken", "difficulty": 2, "group": "steps"},
-{"name": "Gain 30+ Steps at Once", "difficulty": 3, "group": "steps"},
+{"name": "Gain 25+ Steps at Once", "difficulty": 3, "group": "steps"},
 
 {"name": "End with 30+ Rooms", "difficulty": 2, "group": "totalrooms"},
 {"name": "Draft a Full Wing", "difficulty": 2, "group": "totalrooms"},
@@ -84,8 +84,8 @@ var objectiveData = [
 {"name": "7+ Keys, Gems, Coins Each", "difficulty": 3, "group": "basics"},
 
 {"name": "Eat Salted Food", "difficulty": 2, "group": "food"},
-{"name": "Gain >15 Steps from One Kitchen Purchase", "difficulty": 2, "group": "food"},
-{"name": "Gain >20 Steps in Dining Room", "difficulty": 2, "group": "food"},
+{"name": "Gain 16+ Steps from One Kitchen Purchase", "difficulty": 2, "group": "food"},
+{"name": "Gain 21+ Steps in Dining Room", "difficulty": 2, "group": "food"},
 
 {"name": "3+ Allowance", "difficulty": 2, "group": "allowance"},
 {"name": "4+ Allowance", "difficulty": 2, "group": "allowance"},
@@ -189,7 +189,7 @@ var objectiveData = [
 {"name": "Trade a Microchip", "difficulty": 2, "group": "microchip"},
 
 {"name": "Make a Contraption", "difficulty": 3, "group": "contraption"},
-{"name": "Make 2 Unique Contraptions", "difficulty": 4, "group": "contraption"},
+{"name": "Make 3 Unique Contraptions", "difficulty": 4, "group": "contraption"},
 ];
 
 var objectiveDataHard = [
@@ -222,7 +222,7 @@ var objectiveDataHard = [
 {"name": "Retrieve Key After Checking Overnight", "difficulty": "3"},
 {"name": "Draft 8 Blue Rooms in a Row", "difficulty": "3"},
 {"name": "Buy a Special Key", "difficulty": "3"},
-{"name": "Gain >20 Steps in Dining Room", "difficulty": "3"},
+{"name": "Gain 21+ Steps in Dining Room", "difficulty": "3"},
 {"name": "Open the Car Trunk", "difficulty": "3"},
 {"name": "Light 4 Blue Flames", "difficulty": "3"},
 {"name": "Eat 5 Fruit in a Day", "difficulty": "3"},
