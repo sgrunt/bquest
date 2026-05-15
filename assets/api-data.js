@@ -28,7 +28,7 @@ var objectiveData = [
 {"name": "Draft 2+ Copies of Room in a Day", "difficulty": 2},
 {"name": "Draft West and East Wing Halls on Same Day", "difficulty": 2},
 {"name": "Change a Room's Color", "difficulty": 2},
-{"name": "Open Tomb Door to Reservoir", "difficulty": 2},
+{"name": "Reach the Reservoir", "difficulty": 2},
 {"name": "Read a Library Book Aloud", "difficulty": 2},
 {"name": "Buy a Special Key", "difficulty": 2},
 {"name": "Pick a Lock", "difficulty": 2},
@@ -55,9 +55,9 @@ var objectiveData = [
 {"name": "End with 120+ Steps Taken", "difficulty": 2, "group": "steps"},
 {"name": "Gain 25+ Steps at Once", "difficulty": 3, "group": "steps"},
 
-{"name": "End with 30+ Rooms", "difficulty": 2, "group": "totalrooms"},
+{"name": "Have 30+ Rooms", "difficulty": 2, "group": "totalrooms"},
 {"name": "Draft a Full Wing", "difficulty": 2, "group": "totalrooms"},
-{"name": "End with 35+ Rooms", "difficulty": 3, "group": "totalrooms"},
+{"name": "Have 35+ Rooms", "difficulty": 3, "group": "totalrooms"},
 {"name": "Draft All Four Corners", "difficulty": 3, "group": "totalrooms"},
 
 {"name": "Eat in Dining Room 2 times", "difficulty": 2, "group": "dining"},
@@ -275,12 +275,12 @@ var objectiveDataHard = [
 {"name": "Draft 6 Archived Floorplans in a Day", "difficulty": "5", "group": "archived"},
 {"name": "Draft 8 Archived Floorplans in a Day", "difficulty": "6", "group": "archived"},
 
-{"name": "End with 30+ Rooms", "difficulty": "1", "group": "bigmansion"},
+{"name": "Have 30+ Rooms", "difficulty": "1", "group": "bigmansion"},
 {"name": "Reach Rank 9", "difficulty": "1", "group": "bigmansion"},
-{"name": "End with 35+ Rooms", "difficulty": "2", "group": "bigmansion"},
+{"name": "Have 35+ Rooms", "difficulty": "2", "group": "bigmansion"},
 {"name": "Draft the Entire East Wing", "difficulty": "4", "group": "bigmansion"},
 {"name": "Draft the Entire West Wing", "difficulty": "4", "group": "bigmansion"},
-{"name": "End with 40+ Rooms", "difficulty": "5", "group": "bigmansion"},
+{"name": "Have 40+ Rooms", "difficulty": "5", "group": "bigmansion"},
 {"name": "Draft All Four Corners", "difficulty": "6", "group": "bigmansion"},
 
 {"name": "Solve 2 Dartboards", "difficulty": "1", "group": "billiards"},
