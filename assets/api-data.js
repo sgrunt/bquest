@@ -32,7 +32,7 @@ var objectiveData = [
 {"name": "Read a Library Book Aloud", "difficulty": 2},
 {"name": "Buy a Special Key", "difficulty": 2},
 {"name": "Pick a Lock", "difficulty": 2},
-{"name": "Draft 3 \"Closet\" Rooms in a Day", "difficulty": 2},
+{"name": "Draft 3 &quot;Closet&quot; Rooms in a Day", "difficulty": 2},
 
 // ungrouped hard
 {"name": "Add Mechanarium", "difficulty": 3},
