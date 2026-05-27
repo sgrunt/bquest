@@ -177,7 +177,6 @@ var objectiveData = [
 {"name": "Non-Outer Room Outside", "difficulty": 3, "group": "shrine_outer"},
 {"name": "Pick 3 Berries", "difficulty": 3, "group": "shrine_outer"},
 
-{"name": "Light a Blue Flame in an Outer Room", "difficulty": "1", "group": "flames"},
 {"name": "Use an Elevator", "difficulty": 2, "group": "flames"},
 {"name": "Light 4 Blue Flames", "difficulty": 2, "group": "flames"},
 
