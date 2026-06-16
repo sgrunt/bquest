@@ -20,7 +20,6 @@ var objectiveData = [
 {"name": "Permanently Increase a Room's Rarity", "difficulty": 2},
 {"name": "Re-roll a Draft 4+ Times", "difficulty": 2},
 {"name": "Open a Delivered Package", "difficulty": 2},
-{"name": "Reach Rank 9", "difficulty": 2},
 {"name": "Shelter the Lavatory", "difficulty": 2},
 {"name": "Eat in Pantry, Kitchen, and Dining in a Day", "difficulty": 2},
 {"name": "Draft 8 Blue Rooms in a Row in a Day", "difficulty": 2},
@@ -56,9 +55,10 @@ var objectiveData = [
 {"name": "Gain 25+ Steps at Once", "difficulty": 3, "group": "steps"},
 
 {"name": "Have 30+ Rooms", "difficulty": 2, "group": "totalrooms"},
+{"name": "Reach Rank 9", "difficulty": 2, "group": "totalrooms"},
 {"name": "Draft a Full Wing", "difficulty": 2, "group": "totalrooms"},
 {"name": "Have 35+ Rooms", "difficulty": 3, "group": "totalrooms"},
-{"name": "Draft All Four Corners", "difficulty": 3, "group": "totalrooms"},
+{"name": "Draft All Four Corners on Same Day", "difficulty": 3, "group": "totalrooms"},
 
 {"name": "Eat in Dining Room 2 times", "difficulty": 2, "group": "dining"},
 {"name": "Eat in Dining Room 3 times", "difficulty": 3, "group": "dining"},
@@ -280,7 +280,7 @@ var objectiveDataHard = [
 {"name": "Draft the Entire East Wing", "difficulty": "4", "group": "bigmansion"},
 {"name": "Draft the Entire West Wing", "difficulty": "4", "group": "bigmansion"},
 {"name": "Have 40+ Rooms", "difficulty": "5", "group": "bigmansion"},
-{"name": "Draft All Four Corners", "difficulty": "6", "group": "bigmansion"},
+{"name": "Draft All Four Corners on Same Day", "difficulty": "6", "group": "bigmansion"},
 
 {"name": "Solve 2 Dartboards", "difficulty": "1", "group": "billiards"},
 {"name": "Solve 3 Dartboards", "difficulty": "2", "group": "billiards"},
