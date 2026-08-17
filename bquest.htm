@@ -92,8 +92,12 @@
                 <input type="button" class="btn btn-warning mb-3 shadow" value="Download" onclick="downloadJson()">
             </div>
             <div class="text-center">
-	        <input type="checkbox" id="hardmode"/>
-                <label for="hard">Hard Mode</label>
+	        <input type="radio" id="normalmode" name="mode" value="normal" checked="checked"/>
+                <label for="normalmode">Normal Mode</label>
+	        <input type="radio" id="hardmode" name="mode" value="hard"/>
+                <label for="hardmode">Hard Mode</label>
+	        <input type="radio" id="mememode" name="mode" value="meme"/>
+                <label for="mememode">Meme Mode</label>
             </div>
             <div class="row">
                 <div class="col-lg-6 mx-auto mb-3">
@@ -130,8 +134,12 @@
     <script>
         $(function(){
 	    var params = new URL(window.location).searchParams;
-	    if (params && params.get("hardmode") != undefined) {
+	    if (params && (params.get("hardmode") != undefined || params.get("mode") == "hard")) {
+	        $("#normalmode").prop("checked", false);
 	        $("#hardmode").prop("checked", true);
+            } else if (params && (params.get("mememode") != undefined || params.get("mode") == "meme")) {
+	        $("#normalmode").prop("checked", false);
+	        $("#mememode").prop("checked", true);
             }
             $("#board td").on("mousedown", function(e){
                 document.oncontextmenu = function() { return false; }
@@ -161,7 +169,7 @@
         });
         
         function generateJson(){
-            var output = generateCards("bquest", $("#hardmode").is(":checked"));
+            var output = generateCards("bquest", $('input[name="mode"]:checked').val());
             $("#boardFull").val(output);
         }
         

@@ -1,9 +1,11 @@
 var usedGroups = []; //global
 
-function generateCards(boardType, hard = false){
+function generateCards(boardType, mode){
+    var hard = mode == 'hard';
+    var meme = mode == 'meme';
     usedGroups = [];
 
-    var baseObjectiveData = hard ? objectiveDataHard : objectiveData;
+    var baseObjectiveData = hard ? objectiveDataHard : meme ? objectiveDataMeme : objectiveData;
 
     var objectiveDataByDifficulty = Array(9)
         .fill()
@@ -21,6 +23,17 @@ function generateCards(boardType, hard = false){
         1, 2, 3, 2, 1, //rank 2
         0, 1, 0, 1, 0  //rank 1
     ]
+    : meme ? [
+        3, 4, 0, 4, 3, //rank 9
+        3, 3, 4, 3, 3, //rank 8
+        3, 3, 3, 3, 3, //rank 7
+        2, 3, 3, 3, 2, //rank 6
+        2, 2, 3, 2, 2, //rank 5
+        2, 2, 2, 2, 2, //rank 4
+        1, 2, 2, 2, 1, //rank 3
+        1, 1, 2, 1, 1, //rank 2
+        1, 1, 0, 1, 1  //rank 1
+    ]
     : [
         3, 4, 0, 4, 3, //rank 9
         3, 3, 4, 3, 3, //rank 8
@@ -34,10 +47,12 @@ function generateCards(boardType, hard = false){
     ];
 
     var newBoard = [];
-    newBoard[40] = "Open West Gate";
     newBoard[42] = "START";
-    newBoard[44] = "Open Orchard Gate";
     newBoard[2] = "GOAL";
+    if (!meme) {
+      newBoard[40] = "Open West Gate";
+      newBoard[44] = "Open Orchard Gate";
+    }
 
     var randomOrder = [];
     for (var i = 0; i < 45; i++) randomOrder.push(i);

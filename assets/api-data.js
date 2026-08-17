@@ -471,3 +471,107 @@ var objectiveDataHard = [
 {"name": "Use 8 Upgrade Disks", "difficulty": "8", "group": "upgradedisk"},
 {"name": "Use 9 Upgrade Disks", "difficulty": "9", "group": "upgradedisk"}
 ];
+
+var objectiveDataMeme = [
+// ungrouped easy
+{"name": "Open the Utility Closet Wall 2+ Times", "difficulty": 1},
+{"name": "Draft a Rank 3 Pancake House", "difficulty": 1},
+{"name": "Trade a Microchip", "difficulty": 1},
+{"name": "Smash Both Entrance Hall Vases", "difficulty": 1},
+{"name": "Read The Red Prince", "difficulty": 1},
+{"name": "End Day with a Live Animal", "difficulty": 1},
+{"name": "Draft a Donut", "difficulty": 1},
+{"name": "Read Herbert and Simon's Diary", "difficulty": 1},
+{"name": "Spin a Globe", "difficulty": 1},
+{"name": "View a Security Tape", "difficulty": 1},
+{"name": "Spend 30 Seconds in the Lavatory", "difficulty": 1},
+
+// ungrouped medium
+{"name": "Draft 2+ Animal Rooms in a Day", "difficulty": 2},
+{"name": "Draft 2+ Sports Rooms in a Day", "difficulty": 2},
+{"name": "Eat 5 Apples in a Day", "difficulty": 2},
+{"name": "Open the Shelter Safe", "difficulty": 2},
+{"name": "Eat Salted Food", "difficulty": 2},
+{"name": "Monk a Room with a View", "difficulty": 2},
+{"name": "Read a Manuscript in the Tomb", "difficulty": 2},
+{"name": "Drain the Aquarium (you monster)", "difficulty": 2},
+{"name": "View a Government Document", "difficulty": 2},
+{"name": "Coat Check a Silver or Prism Key Overnight", "difficulty": 2},
+{"name": "Make a Common Room Rare or Rare Room Common", "difficulty": 2},
+{"name": "Open a Filing Cabinet", "difficulty": 2},
+
+// ungrouped hard
+{"name": "Draft All Four Corners", "difficulty": 3},
+{"name": "Open 2+ Delivered Packages", "difficulty": 3},
+{"name": "Draft the Master Bedroom", "difficulty": 3},
+{"name": "Start Day with Reduced Steps", "difficulty": 3},
+{"name": "Add a Duplicate Floorplan", "difficulty": 3},
+{"name": "Draft the Bookshop", "difficulty": 3},
+{"name": "Buy a Banana from the Commissary", "difficulty": 3},
+{"name": "Lose Everything in Lost and Found", "difficulty": 3},
+{"name": "See Orindian Ruins", "difficulty": 3},
+{"name": "Open a Christmas Present", "difficulty": 3},
+{"name": "Obtain 5+ Keys or Gems at Once", "difficulty": 3},
+{"name": "Add 3+ Chests to Entrance Hall", "difficulty": 3},
+
+// ungrouped very hard
+{"name": "Dig Spread Dirt in Conference Room", "difficulty": 4},
+{"name": "Make Dowsing Rod or Lucky Purse", "difficulty": 4},
+{"name": "Draft the Treasure Trove", "difficulty": 4},
+{"name": "Draft a Five Gem Cost Room", "difficulty": 4},
+{"name": "Visit the Train Platform", "difficulty": 4},
+
+//grouped squares (only one of each group can appear)
+{"name": "Pet the Dog", "difficulty": 3, "group": "added"},
+{"name": "Play a Game in the Casino", "difficulty": 4, "group": "added"},
+{"name": "Climb the Clock Tower", "difficulty": 4, "group": "added"},
+
+{"name": "Watch Two Unique Entire Alzara Cutscenes", "difficulty": 2, "group": "alzara"},
+{"name": "Watch Three Unique Entire Alzara Cutscenes", "difficulty": 3, "group": "alzara"},
+//{"name": "Watch Four Unique Entire Alzara Cutscenes", "difficulty": 3, "group": "alzara"},
+
+{"name": "Eat a Special Course in Dining Room", "difficulty": 3, "group": "blessing"},
+{"name": "3+ Aquariums in a Day", "difficulty": 3, "group": "blessing"},
+{"name": "3+ Courtyards in a Day", "difficulty": 2, "group": "blessing"},
+{"name": "Activate Blessing of the Red General", "difficulty": 2, "group": "blessing"},
+{"name": "Rotate a Room to Become a Dead End and Draft It", "difficulty": 2, "group": "blessing"},
+{"name": "Rotate a Room 360°", "difficulty": 2, "group": "blessing"},
+
+{"name": "Gain 6+ Keys from Queen Power", "difficulty": 3, "group": "chess"},
+{"name": "Buy an Item from the Armory", "difficulty": 3, "group": "chess"},
+{"name": "Gain 30+ Coins at Once from Chapel", "difficulty": 3, "group": "chess"},
+{"name": "Reroll a Corner Draft 5+ Times", "difficulty": 2, "group": "chess"},
+{"name": "Activate the Pawn Power", "difficulty": 3, "group": "chess"},
+
+{"name": "View 4 Depictions of a Specific Angel in a Day", "difficulty": 1, "group": "depictions"},
+{"name": "View 2+ Depictions of Clara Epsen", "difficulty": 2, "group": "depictions"},
+{"name": "View 4+ Depictions of Mary Jones", "difficulty": 2, "group": "depictions"},
+
+{"name": "Dig Up 3+ Pieces of Trash in a Day", "difficulty": 1, "group": "digging"},
+{"name": "Dig Up Nothing", "difficulty": 2, "group": "digging"},
+{"name": "Dig Up a Special Item from a Dirt Pile", "difficulty": 3, "group": "digging"},
+
+{"name": "Ride an Elevator", "difficulty": 2, "group": "elevators"},
+{"name": "Ride 2 Unique Elevators", "difficulty": 3, "group": "elevators"},
+{"name": "Ride 3 Unique Elevators", "difficulty": 4, "group": "elevators"},
+
+{"name": "Tunnel to Rank 9", "difficulty": 4, "group": "ignition"},
+{"name": "Obtain Upgrade Disk Via Ignition", "difficulty": 4, "group": "ignition"},
+
+{"name": "Read 2 Foreman's Logs", "difficulty": 2, "group": "logs"},
+{"name": "Read 3 Foreman's Logs", "difficulty": 3, "group": "logs"},
+
+
+{"name": "Open an Empty Parlor Box", "difficulty": 1, "group": "parlor"},
+{"name": "Open 2 Empty Parlor Boxes in a Day", "difficulty": 2, "group": "parlor"},
+
+{"name": "Read Swim Bird", "difficulty": 2, "group": "reading"},
+{"name": "Read the Pump Manual", "difficulty": 2, "group": "reading"},
+
+{"name": "View a Stamp with the Magnifying Glass", "difficulty": 1, "group": "stamps"},
+{"name": "View 2+ Stamps in Library", "difficulty": 3, "group": "stamps"},
+
+{"name": "Trade an Upgrade Disk", "difficulty": 2, "group": "trade"},
+{"name": "Trade a Basement Key", "difficulty": 4, "group": "trade"},
+
+];
