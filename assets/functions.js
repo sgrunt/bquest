@@ -92,12 +92,27 @@ function drawCard(stack){
     var selectedCard = stack[randomSpot];
     stack.splice(randomSpot, 1);
 
+    if(selectedCard == undefined){
+        return "ERROR";
+    }
+
     if(selectedCard.group != null){
         var group = selectedCard.group;
-        if(usedGroups.find(x => x == group) != null){
-            return drawCard(stack);
-        }
-        usedGroups.push(group);
+	if (Array.isArray(group)) {
+	    group.forEach((thisGroup) => {
+                if(usedGroups.find(x => x == thisGroup) != null){
+                    return drawCard(stack);
+                }
+	    });
+	    group.forEach((thisGroup) => {
+                usedGroups.push(thisGroup);
+	    });
+	} else {
+            if(usedGroups.find(x => x == group) != null){
+                return drawCard(stack);
+            }
+            usedGroups.push(group);
+	}
     }
 
     return selectedCard.name;

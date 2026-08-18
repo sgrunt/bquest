@@ -531,8 +531,7 @@ var objectiveDataMeme = [
 //{"name": "Watch Four Unique Entire Alzara Cutscenes", "difficulty": 3, "group": "alzara"},
 
 {"name": "Eat a Special Course in Dining Room", "difficulty": 3, "group": "blessing"},
-{"name": "3+ Aquariums in a Day", "difficulty": 3, "group": "blessing"},
-{"name": "3+ Courtyards in a Day", "difficulty": 2, "group": "blessing"},
+{"name": "3+ Courtyards in a Day", "difficulty": 2, "group": ["blessing", "multiroom"]},
 {"name": "Activate Blessing of the Red General", "difficulty": 2, "group": "blessing"},
 {"name": "Rotate a Room to Become a Dead End and Draft It", "difficulty": 2, "group": "blessing"},
 {"name": "Rotate a Room 360°", "difficulty": 2, "group": "blessing"},
@@ -561,6 +560,7 @@ var objectiveDataMeme = [
 {"name": "Read 2 Foreman's Logs", "difficulty": 2, "group": "logs"},
 {"name": "Read 3 Foreman's Logs", "difficulty": 3, "group": "logs"},
 
+{"name": "3+ Aquariums in a Day", "difficulty": 3, "group": "multiroom"},
 
 {"name": "Open an Empty Parlor Box", "difficulty": 1, "group": "parlor"},
 {"name": "Open 2 Empty Parlor Boxes in a Day", "difficulty": 2, "group": "parlor"},
