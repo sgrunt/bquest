@@ -99,11 +99,15 @@ function drawCard(stack){
     if(selectedCard.group != null){
         var group = selectedCard.group;
 	if (Array.isArray(group)) {
+	    var isUsed = false;
 	    group.forEach((thisGroup) => {
                 if(usedGroups.find(x => x == thisGroup) != null){
-                    return drawCard(stack);
+		    isUsed = true;
                 }
 	    });
+	    if (isUsed) {
+                return drawCard(stack);
+	    }
 	    group.forEach((thisGroup) => {
                 usedGroups.push(thisGroup);
 	    });

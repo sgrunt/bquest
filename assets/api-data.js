@@ -492,7 +492,6 @@ var objectiveDataMeme = [
 {"name": "Eat 5 Apples in a Day", "difficulty": 2},
 {"name": "Open the Shelter Safe", "difficulty": 2},
 {"name": "Eat Salted Food", "difficulty": 2},
-{"name": "Monk a Room with a View", "difficulty": 2},
 {"name": "Read a Manuscript in the Tomb", "difficulty": 2},
 {"name": "Drain the Aquarium (you monster)", "difficulty": 2},
 {"name": "View a Government Document", "difficulty": 2},
@@ -501,7 +500,7 @@ var objectiveDataMeme = [
 {"name": "Open a Filing Cabinet", "difficulty": 2},
 
 // ungrouped hard
-{"name": "Draft All Four Corners", "difficulty": 3},
+{"name": "Draft All Four Corners on Same Day", "difficulty": 3},
 {"name": "Open 2+ Delivered Packages", "difficulty": 3},
 {"name": "Draft the Master Bedroom", "difficulty": 3},
 {"name": "Start Day with Reduced Steps", "difficulty": 3},
@@ -531,10 +530,11 @@ var objectiveDataMeme = [
 //{"name": "Watch Four Unique Entire Alzara Cutscenes", "difficulty": 3, "group": "alzara"},
 
 {"name": "Eat a Special Course in Dining Room", "difficulty": 3, "group": "blessing"},
+{"name": "Monk a Room with a View", "difficulty": 2, "group": "blessing"},
 {"name": "3+ Courtyards in a Day", "difficulty": 2, "group": ["blessing", "multiroom"]},
 {"name": "Activate Blessing of the Red General", "difficulty": 2, "group": "blessing"},
 {"name": "Rotate a Room to Become a Dead End and Draft It", "difficulty": 2, "group": "blessing"},
-{"name": "Rotate a Room 360°", "difficulty": 2, "group": "blessing"},
+{"name": "Rotate a Room 360&deg;", "difficulty": 2, "group": "blessing"},
 
 {"name": "Gain 6+ Keys from Queen Power", "difficulty": 3, "group": "chess"},
 {"name": "Buy an Item from the Armory", "difficulty": 3, "group": "chess"},
