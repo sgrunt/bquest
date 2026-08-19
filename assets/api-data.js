@@ -481,9 +481,8 @@ var objectiveDataMeme = [
 {"name": "Read The Red Prince", "difficulty": 1},
 {"name": "End Day with a Live Animal", "difficulty": 1},
 {"name": "Draft a Donut", "difficulty": 1},
-{"name": "Read Herbert and Simon's Diary", "difficulty": 1},
+{"name": "Read Herbert and Simon's Journal", "difficulty": 1},
 {"name": "Spin a Globe", "difficulty": 1},
-{"name": "View a Security Tape", "difficulty": 1},
 {"name": "Spend 30 Seconds in the Lavatory", "difficulty": 1},
 
 // ungrouped medium
@@ -498,6 +497,8 @@ var objectiveDataMeme = [
 {"name": "Coat Check a Silver or Prism Key Overnight", "difficulty": 2},
 {"name": "Make a Common Room Rare or Rare Room Common", "difficulty": 2},
 {"name": "Open a Filing Cabinet", "difficulty": 2},
+{"name": "See 2+ Views of Reddington", "difficulty": 2},
+{"name": "Learn Today's Date", "difficulty": 2},
 
 // ungrouped hard
 {"name": "Draft All Four Corners on Same Day", "difficulty": 3},
@@ -510,7 +511,6 @@ var objectiveDataMeme = [
 {"name": "Lose Everything in Lost and Found", "difficulty": 3},
 {"name": "See Orindian Ruins", "difficulty": 3},
 {"name": "Open a Christmas Present", "difficulty": 3},
-{"name": "Obtain 5+ Keys or Gems at Once", "difficulty": 3},
 {"name": "Add 3+ Chests to Entrance Hall", "difficulty": 3},
 
 // ungrouped very hard
@@ -524,6 +524,9 @@ var objectiveDataMeme = [
 {"name": "Pet the Dog", "difficulty": 3, "group": "added"},
 {"name": "Play a Game in the Casino", "difficulty": 4, "group": "added"},
 {"name": "Climb the Clock Tower", "difficulty": 4, "group": "added"},
+
+{"name": "Shelter the Aquarium", "difficulty": 2, "group": "aquarium"},
+{"name": "Draft the Aquarium While Cursed", "difficulty": 3, "group": "aquarium"},
 
 {"name": "Watch Two Unique Entire Alzara Cutscenes", "difficulty": 2, "group": "alzara"},
 {"name": "Watch Three Unique Entire Alzara Cutscenes", "difficulty": 3, "group": "alzara"},
@@ -545,9 +548,13 @@ var objectiveDataMeme = [
 {"name": "View 4 Depictions of a Specific Angel in a Day", "difficulty": 1, "group": "depictions"},
 {"name": "View 2+ Depictions of Clara Epsen", "difficulty": 2, "group": "depictions"},
 {"name": "View 4+ Depictions of Mary Jones", "difficulty": 2, "group": "depictions"},
+{"name": "View a Depictions of Anne Babbage", "difficulty": 2, "group": "depictions"},
+{"name": "View 2+ Depictions of Auravei", "difficulty": 2, "group": "depictions"},
+{"name": "View 4+ Depictions of Herbert S. Sinclair", "difficulty": 2, "group": "depictions"},
 
 {"name": "Dig Up 3+ Pieces of Trash in a Day", "difficulty": 1, "group": "digging"},
 {"name": "Dig Up Nothing", "difficulty": 2, "group": "digging"},
+{"name": "Eat 3 Turnips", "difficulty": 2, "group": "digging"},
 {"name": "Dig Up a Special Item from a Dirt Pile", "difficulty": 3, "group": "digging"},
 
 {"name": "Ride an Elevator", "difficulty": 2, "group": "elevators"},
@@ -557,8 +564,15 @@ var objectiveDataMeme = [
 {"name": "Tunnel to Rank 9", "difficulty": 4, "group": "ignition"},
 {"name": "Obtain Upgrade Disk Via Ignition", "difficulty": 4, "group": "ignition"},
 
+{"name": "Obtain 5+ Keys or Gems at Once", "difficulty": 3, "group": "laundry"},
+{"name": "Use 3 Different Laundry Programs", "difficulty": 3, "group": "laundry"},
+
 {"name": "Read 2 Foreman's Logs", "difficulty": 2, "group": "logs"},
 {"name": "Read 3 Foreman's Logs", "difficulty": 3, "group": "logs"},
+
+{"name": "Read a Blue Memo", "difficulty": 1, "group": ["memos", "security"]},
+{"name": "Read 4 Red Memos", "difficulty": 2, "group": "memos"},
+{"name": "Read a Green Memo", "difficulty": 3, "group": "memos"},
 
 {"name": "3+ Aquariums in a Day", "difficulty": 3, "group": "multiroom"},
 
@@ -567,6 +581,8 @@ var objectiveDataMeme = [
 
 {"name": "Read Swim Bird", "difficulty": 2, "group": "reading"},
 {"name": "Read the Pump Manual", "difficulty": 2, "group": "reading"},
+
+{"name": "View a Security Tape", "difficulty": 1, "group": "security"},
 
 {"name": "View a Stamp with the Magnifying Glass", "difficulty": 1, "group": "stamps"},
 {"name": "View 2+ Stamps in Library", "difficulty": 3, "group": "stamps"},
