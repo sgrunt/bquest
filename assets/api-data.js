@@ -476,68 +476,63 @@ var objectiveDataMeme = [
 // ungrouped easy
 {"name": "Open the Utility Closet Wall 2+ Times", "difficulty": 1},
 {"name": "Draft a Rank 3 Pancake House", "difficulty": 1},
-{"name": "Trade a Microchip", "difficulty": 1},
 {"name": "Smash Both Entrance Hall Vases", "difficulty": 1},
-{"name": "Read The Red Prince", "difficulty": 1},
-{"name": "End Day with a Live Animal", "difficulty": 1},
 {"name": "Draft a Donut", "difficulty": 1},
-{"name": "Read Herbert and Simon's Journal", "difficulty": 1},
-{"name": "Spin a Globe", "difficulty": 1},
 {"name": "Spend 30 Seconds in the Lavatory", "difficulty": 1},
+{"name": "Draft 6 Different Colored Rooms in a Day", "difficulty": 1},
 
 // ungrouped medium
-{"name": "Draft 2+ Animal Rooms in a Day", "difficulty": 2},
-{"name": "Draft 2+ Sports Rooms in a Day", "difficulty": 2},
-{"name": "Eat 5 Apples in a Day", "difficulty": 2},
 {"name": "Open the Shelter Safe", "difficulty": 2},
 {"name": "Eat Salted Food", "difficulty": 2},
-{"name": "Read a Manuscript in the Tomb", "difficulty": 2},
 {"name": "Drain the Aquarium (you monster)", "difficulty": 2},
-{"name": "View a Government Document", "difficulty": 2},
 {"name": "Coat Check a Silver or Prism Key Overnight", "difficulty": 2},
 {"name": "Make a Common Room Rare or Rare Room Common", "difficulty": 2},
-{"name": "Open a Filing Cabinet", "difficulty": 2},
 {"name": "See 2+ Views of Reddington", "difficulty": 2},
 {"name": "Learn Today's Date", "difficulty": 2},
+{"name": "Lose Gems Without Spending Them", "difficulty": 2},
+{"name": "Throw 6 Coins in the Fountain", "difficulty": 2},
 
 // ungrouped hard
 {"name": "Draft All Four Corners on Same Day", "difficulty": 3},
 {"name": "Open 2+ Delivered Packages", "difficulty": 3},
 {"name": "Draft the Master Bedroom", "difficulty": 3},
-{"name": "Start Day with Reduced Steps", "difficulty": 3},
-{"name": "Add a Duplicate Floorplan", "difficulty": 3},
+{"name": "Permanently Add a Duplicate Floorplan", "difficulty": 3},
 {"name": "Draft the Bookshop", "difficulty": 3},
 {"name": "Buy a Banana from the Commissary", "difficulty": 3},
-{"name": "Lose Everything in Lost and Found", "difficulty": 3},
 {"name": "See Orindian Ruins", "difficulty": 3},
-{"name": "Open a Christmas Present", "difficulty": 3},
 {"name": "Add 3+ Chests to Entrance Hall", "difficulty": 3},
+{"name": "View 2+ Spiral Notes", "difficulty": 3},
 
 // ungrouped very hard
 {"name": "Dig Spread Dirt in Conference Room", "difficulty": 4},
 {"name": "Make Dowsing Rod or Lucky Purse", "difficulty": 4},
 {"name": "Draft the Treasure Trove", "difficulty": 4},
 {"name": "Draft a Five Gem Cost Room", "difficulty": 4},
-{"name": "Visit the Train Platform", "difficulty": 4},
 
 //grouped squares (only one of each group can appear)
 {"name": "Pet the Dog", "difficulty": 3, "group": "added"},
 {"name": "Play a Game in the Casino", "difficulty": 4, "group": "added"},
 {"name": "Climb the Clock Tower", "difficulty": 4, "group": "added"},
+{"name": "Lose Everything in Lost and Found", "difficulty": 3, "group": "added"},
+
+{"name": "Eat 2 Apples in a Day", "difficulty": 1, "group": "apples"},
+{"name": "Eat 4 Apples in a Day", "difficulty": 2, "group": "apples"},
 
 {"name": "Shelter the Aquarium", "difficulty": 2, "group": "aquarium"},
-{"name": "Draft the Aquarium While Cursed", "difficulty": 3, "group": "aquarium"},
+{"name": "Draft the Aquarium While Cursed", "difficulty": 3, "group": ["aquarium", "blessing"]},
+
+{"name": "Open a Filing Cabinet", "difficulty": 2, "group": "archives"},
+{"name": "View a Government Document", "difficulty": 2, "group": "archives"},
 
 {"name": "Watch Two Unique Entire Alzara Cutscenes", "difficulty": 2, "group": "alzara"},
 {"name": "Watch Three Unique Entire Alzara Cutscenes", "difficulty": 3, "group": "alzara"},
-//{"name": "Watch Four Unique Entire Alzara Cutscenes", "difficulty": 3, "group": "alzara"},
 
 {"name": "Eat a Special Course in Dining Room", "difficulty": 3, "group": "blessing"},
 {"name": "Monk a Room with a View", "difficulty": 2, "group": "blessing"},
-{"name": "3+ Courtyards in a Day", "difficulty": 2, "group": ["blessing", "multiroom"]},
+{"name": "Monk the Lavatory", "difficulty": 3, "group": "blessing"},
 {"name": "Activate Blessing of the Red General", "difficulty": 2, "group": "blessing"},
-{"name": "Rotate a Room to Become a Dead End and Draft It", "difficulty": 2, "group": "blessing"},
-{"name": "Rotate a Room 360&deg;", "difficulty": 2, "group": "blessing"},
+{"name": "Rotate a Room to Become a Dead End and Draft It", "difficulty": 2, "group": ["blessing", "rotate"]},
+{"name": "Rotate a Room 360&deg;", "difficulty": 2, "group": ["blessing", "rotate"]},
 
 {"name": "Gain 6+ Keys from Queen Power", "difficulty": 3, "group": "chess"},
 {"name": "Buy an Item from the Armory", "difficulty": 3, "group": "chess"},
@@ -561,6 +556,14 @@ var objectiveDataMeme = [
 {"name": "Ride 2 Unique Elevators", "difficulty": 3, "group": "elevators"},
 {"name": "Ride 3 Unique Elevators", "difficulty": 4, "group": "elevators"},
 
+{"name": "End Day with a Live Animal", "difficulty": 1, "group": ["bunk", "eod"]},
+{"name": "End Day at Campsite", "difficulty": 1, "group": "eod"},
+{"name": "End Day in 2 Unique Bedrooms", "difficulty": 2, "group": "eod"},
+{"name": "Start Day with Reduced Steps", "difficulty": 3, "group": "eod"},
+
+{"name": "Spin a Globe", "difficulty": 1, "group": "globe"},
+{"name": "Rotate 3 Unique Things 360&deg;", "difficulty": 2, "group": ["globe", "rotate"]},
+
 {"name": "Tunnel to Rank 9", "difficulty": 4, "group": "ignition"},
 {"name": "Obtain Upgrade Disk Via Ignition", "difficulty": 4, "group": "ignition"},
 
@@ -570,23 +573,29 @@ var objectiveDataMeme = [
 {"name": "Read 2 Foreman's Logs", "difficulty": 2, "group": "logs"},
 {"name": "Read 3 Foreman's Logs", "difficulty": 3, "group": "logs"},
 
+{"name": "3+ Copies of a Room in a Day", "difficulty": 2, "group": "multiroom"},
+{"name": "Draft 2+ Animal Rooms in a Day", "difficulty": 2, "group": "multiroom"},
+{"name": "Draft 2+ Sports Rooms in a Day", "difficulty": 2, "group": "multiroom"},
+
 {"name": "Read a Blue Memo", "difficulty": 1, "group": ["memos", "security"]},
 {"name": "Read 4 Red Memos", "difficulty": 2, "group": "memos"},
 {"name": "Read a Green Memo", "difficulty": 3, "group": "memos"},
 
-{"name": "3+ Aquariums in a Day", "difficulty": 3, "group": "multiroom"},
-
 {"name": "Open an Empty Parlor Box", "difficulty": 1, "group": "parlor"},
 {"name": "Open 2 Empty Parlor Boxes in a Day", "difficulty": 2, "group": "parlor"},
 
+{"name": "Read The Red Prince", "difficulty": 1, "group": "reading"},
+{"name": "Read Herbert and Simon's Journal", "difficulty": 1, "group": ["bunk", "reading"]},
 {"name": "Read Swim Bird", "difficulty": 2, "group": "reading"},
 {"name": "Read the Pump Manual", "difficulty": 2, "group": "reading"},
+{"name": "Read a Manuscript in the Tomb", "difficulty": 2, "group": "reading"},
 
 {"name": "View a Security Tape", "difficulty": 1, "group": "security"},
 
 {"name": "View a Stamp with the Magnifying Glass", "difficulty": 1, "group": "stamps"},
 {"name": "View 2+ Stamps in Library", "difficulty": 3, "group": "stamps"},
 
+{"name": "Trade a Microchip", "difficulty": 1, "group": "trade"},
 {"name": "Trade an Upgrade Disk", "difficulty": 2, "group": "trade"},
 {"name": "Trade a Basement Key", "difficulty": 4, "group": "trade"},
 

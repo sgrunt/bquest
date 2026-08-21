@@ -67,8 +67,12 @@ function generateCards(boardType, mode){
     for (let j = 0; j < 45; j++) {
         const currentSquare = randomOrder[j];
         currentDifficulty = houseDifficulty[currentSquare];
-	if (currentDifficulty > 0)
+	if (currentDifficulty > 0) {
 	    newBoard[currentSquare] = drawCard(objectiveDataByDifficulty[currentDifficulty - 1])
+	    if (newBoard[currentSquare] == "ERROR") {
+	        return generateCards(boardType, mode);
+	    }
+	}
     }
 
     if(boardType == "bingosync"){
