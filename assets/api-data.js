@@ -437,7 +437,7 @@ var objectiveDataHard = [
 
 {"name": "Shelter the Lavatory", "difficulty": "2", "group": "shelter"},
 {"name": "Shelter an Upgraded Room or a Found Floorplan", "difficulty": "6", "group": "shelter"},
-{"name": "Trigger the Emergency Protocol from the Shelter", "difficulty": "7", "group": "shelter"},
+{"name": "Trigger the Shelter Emergency Protocol", "difficulty": "7", "group": "shelter"},
 
 {"name": "View 1 Stamp in the Library", "difficulty": "3", "group": "stamp"},
 {"name": "View 2 Stamps in the Library", "difficulty": "5", "group": "stamp"},
@@ -502,12 +502,15 @@ var objectiveDataMeme = [
 {"name": "See Orindian Ruins", "difficulty": 3},
 {"name": "Add 3+ Chests to Entrance Hall", "difficulty": 3},
 {"name": "View 2+ Spiral Notes", "difficulty": 3},
+{"name": "10+ Unique &quot;Room&quot; Rooms in a Day", "difficulty": 3},
+{"name": "Gain/Lose 0 Steps", "difficulty": 3},
 
 // ungrouped very hard
 {"name": "Dig Spread Dirt in Conference Room", "difficulty": 4},
 {"name": "Make Dowsing Rod or Lucky Purse", "difficulty": 4},
 {"name": "Draft the Treasure Trove", "difficulty": 4},
 {"name": "Draft a Five Gem Cost Room", "difficulty": 4},
+{"name": "Trigger the Shelter Emergency Protocol", "difficulty": "4"},
 
 //grouped squares (only one of each group can appear)
 {"name": "Pet the Dog", "difficulty": 3, "group": "added"},
@@ -583,6 +586,7 @@ var objectiveDataMeme = [
 
 {"name": "Open an Empty Parlor Box", "difficulty": 1, "group": "parlor"},
 {"name": "Open 2 Empty Parlor Boxes in a Day", "difficulty": 2, "group": "parlor"},
+{"name": "Open All Boxes in a Parlor in a Day", "difficulty": 4, "group": "parlor"},
 
 {"name": "Read The Red Prince", "difficulty": 1, "group": "reading"},
 {"name": "Read Herbert and Simon's Journal", "difficulty": 1, "group": ["bunk", "reading"]},
